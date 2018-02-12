@@ -1,0 +1,34 @@
+/****************************************************************************
+ *
+ * Created by: Gavin zhou
+ * Created on: Feb 2018
+ * This program calculates the number of logs that will fit on a truck,
+ *     if you know their length
+ *
+ ****************************************************************************/
+class MapleLogs{
+
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    double[]anArray;
+	    
+	    anArray = new double[4];
+	    
+	    anArray[0] = 0.25;
+	    anArray[1] = 0.5;
+	    anArray[2] = 1;
+	    
+	    int MapleLogsWeight = 20;
+	    
+	    double answer1 = 1100/(MapleLogsWeight*anArray[0]);
+	    double answer2 = 1100/(MapleLogsWeight*anArray[1]);
+	    double answer3 = 1100/(MapleLogsWeight*anArray[2]);
+	    
+	    
+	    System.out.println(answer1);
+	    System.out.println(answer2);
+	    System.out.println(answer3);
+	    
+		// your code goes here
+	}
+}
